@@ -34,19 +34,19 @@ cd CFFI-MemoryLeak
 ```
 
 ### Run experiments
-1) Go to src
+1) Navigate to the `src` directory:
 
 ```bash
 cd src
 ```
 
-2) Select one of the modes to use CFFI suggested in the Overview and go to the corresponding directory
+2) Select one of the CFFI usage modes suggested in the Overview and go to the corresponding directory.
 
-3) First run build.py if it exists, then test.py
+3) First, run `build.py` if it exists, and then run `test.py`.
 
 ```bash
 NAME/bin/python3.12 build.py
 NAME/bin/python3.12 test.py
 ```
 
-4) Address Sanitizer shows leaks for CFFI in any API mode
+4) AddressSanitizer shows memory leaks for CFFI in all API modes.
