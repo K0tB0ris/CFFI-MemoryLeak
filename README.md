@@ -29,7 +29,7 @@ NAME/bin/python3.12 -m pip install cffi
 ### Clone the repository
 
 ```bash
-git clone hhttps://github.com/K0tB0ris/CFFI-MemoryLeak.git
+git clone https://github.com/K0tB0ris/CFFI-MemoryLeak.git
 cd CFFI-MemoryLeak
 ```
 
